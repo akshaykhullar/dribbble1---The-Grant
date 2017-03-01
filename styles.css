@@ -1,0 +1,94 @@
+@@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('bg-image.jpg');
+  background-size: cover;
+  display: block;
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -ms-filter: blur(8px);
+  filter: blur(8px);
+  z-index: 1;
+
+  position: fixed;
+}
+
+.container {
+  background: #FFF;
+  width: 600px;
+  height: auto;
+  z-index: 2;
+
+  position: fixed;
+  margin-top: 28vh;
+  margin-left: 32vw;
+
+  padding: 70px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.10);
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  margin-top: -10px;
+}
+
+h2 {
+  font-family: georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #dca636;
+}
+
+.divider {
+  width: 50px;
+  height: 5px;
+  background-color: #000;
+  margin: 30px auto;
+}
+
+p {
+  font-size: 14px;
+  line-height: 220%;
+}
+
+.original-dribbble{
+  z-index: 3;
+  position: fixed;
+  width: 130px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+  background-image: url('thegrant_copy_new.jpg');
+  background-size: contain;
+}
+
+.original-dribbble a {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+}
